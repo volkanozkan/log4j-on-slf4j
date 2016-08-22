@@ -1,0 +1,36 @@
+22-07-2016 22:13:14 DEBUG MainClass:18 - Arithmetic Exception 
+first.CustomException: Arithmetic Exception On: first.ThirdClass
+	at first.ThirdClass.callMethodOfSecondClass(ThirdClass.java:12)
+	at first.MainClass.main(MainClass.java:16)
+Caused by: java.lang.ArithmeticException: / by zero
+	at first.FirstClass.generateException(FirstClass.java:6)
+	at first.SecondClass.callMethodOfFirstClassButNotHandle(SecondClass.java:9)
+	at first.ThirdClass.callMethodOfSecondClass(ThirdClass.java:10)
+	... 1 more
+24-07-2016 00:22:37 DEBUG MainClass:18 - Arithmetic Exception 
+first.CustomException: Arithmetic Exception On: first.ThirdClass
+	at first.ThirdClass.callMethodOfSecondClass(ThirdClass.java:12)
+	at first.MainClass.main(MainClass.java:16)
+Caused by: java.lang.ArithmeticException: / by zero
+	at first.FirstClass.generateException(FirstClass.java:6)
+	at first.SecondClass.callMethodOfFirstClassButNotHandle(SecondClass.java:9)
+	at first.ThirdClass.callMethodOfSecondClass(ThirdClass.java:10)
+	... 1 more
+24-07-2016 17:02:42 DEBUG MainClass:18 - Arithmetic Exception 
+first.CustomException: Arithmetic Exception On: first.ThirdClass
+	at first.ThirdClass.callMethodOfSecondClass(ThirdClass.java:12)
+	at first.MainClass.main(MainClass.java:16)
+Caused by: java.lang.ArithmeticException: / by zero
+	at first.FirstClass.generateException(FirstClass.java:6)
+	at first.SecondClass.callMethodOfFirstClassButNotHandle(SecondClass.java:9)
+	at first.ThirdClass.callMethodOfSecondClass(ThirdClass.java:10)
+	... 1 more
+25-07-2016 09:02:40 DEBUG MainClass:22 - Arithmetic Exception 
+first.CustomException: Arithmetic Exception On: first.ThirdClass
+	at first.ThirdClass.callMethodOfSecondClass(ThirdClass.java:13)
+	at first.MainClass.main(MainClass.java:19)
+Caused by: java.lang.ArithmeticException: / by zero
+	at first.FirstClass.generateException(FirstClass.java:7)
+	at first.SecondClass.callMethodOfFirstClassButNotHandle(SecondClass.java:10)
+	at first.ThirdClass.callMethodOfSecondClass(ThirdClass.java:11)
+	... 1 more
